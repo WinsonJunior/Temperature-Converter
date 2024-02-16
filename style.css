@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(177, 235, 220), rgb(99, 221, 111, .6));
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background-color: rgba(255,255,255,.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    color: rgb(1, 155, 163);
+    width: 85%;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.heading{
+    font-size: 32px;
+}
+
+.temperature-container{
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.value{
+    width: 220px;
+    padding: 5px;
+    outline: none;
+    float: right;
+    border-color: rgba(255,255,255,.5);
+    background-color: rgba(255,255,255,.3);
+    color: darkgreen;
+    font-size: 18px;
+}
+
+.value::placeholder{
+    color: darkgray;
+}
